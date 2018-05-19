@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SongsInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_album_cover">album_cover</string>
+    <string name="enter_artist_or_album">Enter Artist or Album</string>
+    <string name="search">Search</string>
+</resources>
