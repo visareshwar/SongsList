@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        supportActionBar?.title = "New Songs"
         songsAdaptor = SongsAdaptor(mSongsList)
         val layoutManager = LinearLayoutManager(this)
         music_list_recycler_view.adapter = songsAdaptor
